@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+}
+.Acceuil{
+    height: 100vh;
+    width: 100vw;
+    background-color: #DAF0EE;
+}
+
+.links {
+    z-index: 1;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-family: sans-serif;
+    top: 20px;
+}
+#projet{
+    right: 350px;
+}
+#acceuil {
+    right: 850px;
+}
+#propos {
+    right: 605px;
+}
+#contact {
+    right: 70px;
+}
+
+.t{
+    position: absolute;
+    right: 0;
+    
+}
+
+
+
+
+#nav{
+    height: 20%;
+    width: 100%;
+    display: flex;
+}
+
+
+
+#base{
+    height: 60%;
+    width: 100%;
+    display: flex;
+}
+.b1{
+    height: 100%;
+    width: 50%;
+}
+.C{
+    position:absolute;
+    top: 80px;
+}
+.b2{
+    height: 100%;
+    width: 50%;
+}
+.objt{
+    position: absolute;
+    right: 20%;
+}
+.W{
+    position: absolute;
+    right: 0%;
+}
+
+
+#atr{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#resaux{
+    height: 100%;
+    width: 2%;
+    display: flex;
+    flex-direction: column;
+}
+#question{
+    width: 35%;
+    height: 100%;
+    display: flex;
+}
+
+#reponse{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.reponse{
+    background-color: #9DB5B2;
+    border: none;
+    margin-top: 20px;
+}
+
+
+#propoos{
+    height: 100vh;
+    width: 100vw;
+    background-color: #3B413C;
+    position: relative;
+}
+.title-propos{
+    position: absolute;
+    top: 20%; left: 15%;
+}
+.texte-propos{
+    position: absolute;
+    top: 25%; left: 15%;
+}
+.guy{
+    position: absolute;
+    top: 5%; right: 25%;
+}
+#work{
+    height: 30%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 27%; left: 5%;
+}
+#sport{
+    height: 30%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 10%; right: 5%;
+}
+
+
+
+#pageprojet{
+    height: 100vh;
+    width: 100vw;
+    background-color: #9DB5B2;
+}
+.titre-projet{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#body-projet{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.bodyin{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#coiffeur{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#img-coiffeur{
+    width: 100%;
+    height: 80%;
+    background-image: url("./Image/SITE\ INTERNET\ WEBDESIGN\ WORDPRESS\ BEAUTÉ.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#site-loc{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tire-siteloc{
+    display: flex;
+    justify-content: center;
+}
+#bcimg{
+    width: 100%;
+    height: 80%;
+    background-image: url("./Image/Logo\ D\'anniversaire.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#contact-me{
+    background-color: #FFD100;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.contact-me{
+    background-color: #94D1BE;
+    height: 60%;
+    width: 70%;
+}
