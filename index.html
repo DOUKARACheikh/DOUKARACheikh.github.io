@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doukara Cheikh</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./Image/logo-styler-pour-un-portfolio-qui-a-pour-nom-cheik.png" type="image/x-icon">
 </head>
 <body>
     <div class="Acceuil">
         <div id="nav">
+            <img class="logo" src="./Image/logo-styler-pour-un-portfolio-qui-a-pour-nom-cheik.png" alt="">
             <a class="links" id="acceuil" href="">Acceuil</a>
             <a class="links" id="projet" href="">Projets</a>
             <a class="links" id="propos" href="">A propos</a>
@@ -19,24 +23,22 @@
             <div class="b1">
                 <h1>Salut, je suis Cheikh :)</h1>
                 <h2>Reve de devenir <span class="a">devweb</span></h2>
-                <img class="C" src="./Image/Rectangle 4.png" alt="">
             </div>
             <div class="b2">
                 <h1 class="objt">A la recherche d’une <span class="a">école</span></h1>
-                <img class="W" src="./Image/Designer Working.png" alt="">
             </div>
         </div>
         <div id="atr">
             <div id="resaux">
-                <button class="resaux" id="insta">
-                    <img src="" alt="">
-                </button>
-                <button class="resaux" id="X">
-                    <img src="" alt="">
-                </button>
-                <button class="resaux" id="link">
-                    <img src="" alt="">
-                </button>
+                <a class="resaux" id="insta">
+                    <img class="rezologo" src="./Image/icons8-instagram-32.png" alt="">
+                </a>
+                <a class="resaux" id="X">
+                    <img class="rezologo" src="./Image/icons8-x-50.png" alt="">
+                </a>
+                <a class="resaux" id="link">
+                    <img class="rezologo" src="./Image/icons8-linkedin-logo-50.png" alt="">
+                </a>
             </div>
             <div id="question">
                 <h1 class="question">Prêt à me suivre dans <span class="a">l’aventure ?</span>
@@ -51,16 +53,16 @@
     <div id="propoos">
         <h1 class="title-propos">Qui suis-je ?</h1>
         <h3 class="texte-propos">
-            Juste un mec chill qui veut être <span class="devweb">devweb</span>;)
+            Juste un mec chill qui veut être <span class="devweb">devweb :)</span>
         </h3>
-        <img src="./Image/Cool Guy.png" alt="" class="guy">
+        <img src="./Image/Cool Guy MODIFIE.png" alt="" class="guy">
         <div id="work">
-            <img src="./Image/Workflow Teamwork.png" alt="" class="work">
-            <h4 class="ekip">Qui sait trvailler en équipe</h4>
+            <img src="./Image/Workflow Teamwork MODIF.png" alt="" class="work">
+            <h3 class="ekip">Qui sait trvailler en équipe</h3>
         </div>
         <div id="sport">
-            <h5 class="sport.texte">Un peu sportif aussi</h5>
-            <img src="./Image/Health - Sports.png" alt="" id="sportif">
+            <h3 class="sport.texte">Un peu sportif aussi</h3>
+            <img class="sport-img" src="./Image/Health - Sports MODIF.png" alt="" id="sportif">
         </div>
     </div>
     <div id="pageprojet">
@@ -70,15 +72,15 @@
         <dive id="body-projet">
             <div class="bodyin">
                 <div id="coiffeur">
-                    <h6 class="titre-sitecoif">
+                    <h3 class="titre-sitecoif">
                         Fresh Barber
-                    </h6>
+                    </h3>
                 </div>
                 <div id="img-coiffeur"></div>
             </div>
             <div class="bodyin">
                 <div id="site-loc">
-                    <h6 class="titre-siteloc">AMM_LOC</h6>
+                    <h3 class="titre-siteloc">AMM_LOC</h3>
                 </div>
                 <div id="bcimg">
 
@@ -88,8 +90,26 @@
     </div>
     <div id="contact-me">
         <div class="contact-me">
-            <div id="info"></div>
-            <div id="lil-me"></div>
+            <div class="main-block">
+                <div class="left-part">
+                  <i class="fas fa-envelope"></i>
+                  <i class="fas fa-at"></i>
+                  <i class="fas fa-mail-bulk"></i>
+                </div>
+                <form action="https://formspree.io/f/myzyvzgv"
+                method="POST">
+                  <h6>Contact Us</h6>
+                  <div class="info">
+                    <input class="fname" type="text" name="name" placeholder="Full name">
+                    <input type="text" name="email" placeholder="Email">
+                  </div>
+                  <p>Message</p>
+                  <div>
+                    <input type="text" rows="4" name="message" id="message">
+                  </div>
+                  <button id="button" type="submit" href="/">Submit</button>
+                </form>
+              </div>
         </div>
     </div>
 
